@@ -38,7 +38,11 @@ pj.drop(['部门名称', '人员编码_x', '岗位_x','人员编码_y','人员�
 #res.fillna(0,inplace=True)
 
 #print(res)
-
+wq.fillna(0,inplace=True)
+pj.fillna(0,inplace=True)
+#print(res)
+w=wq.set_index('人员姓名')
+p=pj.set_index('人员姓名')
 #res.fillna(0,inplace=True)
 
 #print(res)
